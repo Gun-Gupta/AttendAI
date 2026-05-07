@@ -1,0 +1,18 @@
+#utilities
+numpy
+pandas
+
+#facerecognition
+scikit-learn #to perform dimensionality reduction and clustering on the face encodings
+dlib-bin #to detect the face in the image and extract the face encoding
+
+git+https://github.com/ageitgey/face_recognition_models   #to detect vector points such as eyes, nose, mouth etc. in the face
+setuptools<70.0.0
+
+supabase
+bcrypt
+
+segno #to generate QR code for the user to scan and login
+pillow #to process the image and convert it to a format that can be used by the face recognition model
+
+streamlit
